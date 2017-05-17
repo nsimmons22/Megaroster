@@ -17,11 +17,17 @@ const megaroster = {
 
   removeStudent(ev) {
     const btn = ev.target
-    const stul = btn.closest('.student')
-    megaroster.students.splice($(stul).attr(`data-id`), 1)
-    stul.remove()
+    btn.closest('.student').remove()
+    const id = btn.closest('.student')
+
+   for(let i = 0; i < this.students.length; i++) {
+      if(this.students[i].id == id.dataset.id) {
+        this.students.splice(i, 1)
+      }
+    
     // Remove it from the this.students array
     // this.students.splice(?, 1)
+   }
   },
 
   addStudent(ev) {

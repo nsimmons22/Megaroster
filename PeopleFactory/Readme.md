@@ -35,4 +35,4 @@ Do not hard-code the names of the fields in your JavaScript. Loop over all of th
 
 #### Super Mega Bonus Credit Hyper Fighting
 
-* Add a promote button to every list item that changes the appearance (e.g. changes the background color, adds a border, etc.) of that item when clicked.
+* Add a promote button to every list item that changes the appearance (e.g. changes the background color, adds a border, etc.) of that item when clicked.# PeopleFactory
